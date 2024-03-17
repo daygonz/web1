@@ -64,6 +64,11 @@ h1, h2 {
     color: #6e6e6e;
 }
 
+.image-description .promo-price {
+    font-weight: bold; /* Makes the font bold */
+    color: #6e6e6e;
+}
+
 .container {
     max-width: 1200px; /* Adjust based on your design requirements */
     margin: auto; /* Center the container */
@@ -92,6 +97,7 @@ h1, h2 {
     padding: 2px 0; /* Adds a little space between the lines */
     text-align: left; /* Centers the text */
     /*font-size: 1rem; /* Adjust the font size according to your design */
+    color: #6e6e6e;
 }
 
 
