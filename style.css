@@ -58,6 +58,12 @@ h1, h2 {
     color: #6e6e6e;
 }
 
+.promo-name {
+    font-size: 24px; /* Adjusts the size of the header text */
+    font-weight: bold; /* Makes the font bold */
+    color: #6e6e6e;
+}
+
 .container {
     max-width: 1200px; /* Adjust based on your design requirements */
     margin: auto; /* Center the container */
