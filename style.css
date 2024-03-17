@@ -75,6 +75,11 @@ h1, h2 {
     padding: 0 15px; /* Adds padding on smaller screens */
 }
 
+.no-underline {
+    text-decoration: none;
+    color: inherit; /* Or set to a specific color */
+}
+
 .row {
     margin: 0 -15px; /* Adjusts for the row gutters */
 }
