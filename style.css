@@ -91,7 +91,7 @@ h1, h2 {
     margin: 0; /* Removes the default margin from the paragraphs */
     padding: 2px 0; /* Adds a little space between the lines */
     text-align: left; /* Centers the text */
-    font-size: 1rem; /* Adjust the font size according to your design */
+    /*font-size: 1rem; /* Adjust the font size according to your design */
 }
 
 
