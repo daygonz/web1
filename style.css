@@ -61,12 +61,12 @@ h1, h2 {
 .image-description .promo-name {
     font-size: 1.5rem; /* Adjusts the size of the header text */
     font-weight: bold; /* Makes the font bold */
-    color: #F5F5F5;
+    color: #FFFFFF;
 }
 
 .image-description .promo-price {
     font-weight: bold; /* Makes the font bold */
-    color: #F5F5F5;
+    color: #FFFFFF;
 }
 
 .container {
