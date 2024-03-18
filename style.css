@@ -98,6 +98,11 @@ h1, h2 {
     margin-bottom: 30px; /* Adds some space below each image */
 }
 
+.logo-large {
+   width: 100%; /* Takes full width of the parent container */
+    height: auto; /* Keeps the aspect ratio intact */
+}
+
 .image-description p {
     margin: 0; /* Removes the default margin from the paragraphs */
     padding: 2px 0; /* Adds a little space between the lines */
