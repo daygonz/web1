@@ -91,13 +91,6 @@ h1, h2 {
     justify-content: center; /* Horizontally centers the image in the column */
 }
 
-.logo-large {
-    max-width: 80%; /* or you can use a specific pixel value like 300px */
-    height: auto;
-    display: block; /* Centers the image in its container */
-    margin: 0 auto; /* Adjust margins as needed for spacing */
-}
-
 
 .img-fluid {
     max-width: 100%; /* Ensures the image is never larger than the column */
