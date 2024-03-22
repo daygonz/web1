@@ -117,3 +117,10 @@ h1, h2 {
     width: 100%; /* Makes the image responsive */
     height: auto; /* Maintains aspect ratio */
 }
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    /* Add more styling as needed */
+}
+
