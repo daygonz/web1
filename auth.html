@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram Authorization</title>
+</head>
+<body>
+    <h1>Instagram Authorization Successful</h1>
+    <script>
+        // Parse the URL parameters to get the code
+        const urlParams = new URLSearchParams(window.location.search);
+        const code = urlParams.get('code');
+        if (code) {
+            // Here you would send the code to your server to exchange it for an access token
+            // This is just a placeholder for where you would add that logic
+            console.log('Authorization code:', code);
+
+            // Redirect to another page or show a success message
+            // window.location.href = '/path-to-redirect-after-success';
+        } else {
+            // Handle error or show an error message
+            document.body.innerHTML += '<p>Authorization failed or was cancelled.</p>';
+        }
+    </script>
+</body>
+</html>
 
