@@ -37,25 +37,29 @@
     </nav>
     
 <body class="bg-off-black text-gold">
-    <div class="container">
-        <h2>Checkout</h2>
-        <!-- Display price information -->
-        <p>Price: $XX.XX</p>
-        <p>1 24 hour story promotion on @RapTV + tag.</p>
+   <div class="container">
+    <h2>Checkout</h2>
+    <!-- Display price information -->
+    <p>Price: $XX.XX</p>
+    <p>1 24 hour story promotion on @RapTV + tag.</p>
 
-        <!-- Checkout form -->
-        <form id="checkoutForm" action="/submit-checkout" method="POST" enctype="multipart/form-data">
-            <div class="mb-3">
-                <label for="instagramHandle" class="form-label">Instagram handle</label>
-                <input type="text" class="form-control" id="instagramHandle" name="instagramHandle" required>
-            </div>
-            <div class="mb-3">
-                <label for="mediaUpload" class="form-label">Upload picture/video that will be promoted</label>
-                <input type="file" class="form-control" id="mediaUpload" name="mediaUpload" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+    <!-- Checkout form within a centered column -->
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8"> <!-- Adjusts the width for different screen sizes -->
+            <form id="checkoutForm" action="/submit-checkout" method="POST" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="instagramHandle" class="form-label">Instagram handle</label>
+                    <input type="text" class="form-control" id="instagramHandle" name="instagramHandle" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mediaUpload" class="form-label">Upload picture/video that will be promoted</label>
+                    <input type="file" class="form-control" id="mediaUpload" name="mediaUpload" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
     </div>
+</div>
 
 
     <!-- Add necessary JavaScript files -->
