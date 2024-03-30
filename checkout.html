@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Checkout</title>
+    <!-- Add Bootstrap/CSS links here -->
+</head>
+<body>
+    <div class="container">
+        <h2>Checkout</h2>
+        <!-- Display price information -->
+        <p>Price: $XX.XX</p>
+
+        <!-- Checkout form -->
+        <form id="checkoutForm" action="/submit-checkout" method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="instagramHandle" class="form-label">Instagram Handle</label>
+                <input type="text" class="form-control" id="instagramHandle" name="instagramHandle" required>
+            </div>
+            <div class="mb-3">
+                <label for="mediaUpload" class="form-label">Upload Picture/Video</label>
+                <input type="file" class="form-control" id="mediaUpload" name="mediaUpload" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Add necessary JavaScript files -->
+</body>
+</html>

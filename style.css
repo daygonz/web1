@@ -64,6 +64,14 @@ h1, h2 {
     color: #DADADA;
 }
 
+.h3 {
+    font-size: 1.5rem; /* Adjusts the size of the header text */
+    font-weight: bold; /* Makes the font bold */
+    color: #DADADA;
+}
+
+
+
 .image-description .promo-price {
     font-weight: bold; /* Makes the font bold */
     color: #DADADA;
@@ -124,3 +132,16 @@ h1, h2 {
     /* Add more styling as needed */
 }
 
+.promo-date-picker {
+    max-width: 200px; /* Set the desired maximum width */
+    display: block; /* Ensure the input behaves as a block-level element for the margin to work */
+}
+
+.checkout-container {
+    max-width: 200px; /* Or any width you prefer */
+    padding: 20px; /* Adds space inside the container, around the elements */
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    margin-right: 150px;
+}

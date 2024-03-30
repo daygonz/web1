@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet">
+    <!--Chart-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!--Chart setup-->
+
+    <!--Calender-->
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
 </head>
 <body class="bg-off-black text-gold">
 
@@ -44,18 +52,41 @@
                 <!-- Add your image here, replace 'path_to_your_logo' with the actual path to your logo image -->
                   <img src="https://live.staticflickr.com/65535/53588604854_85cefea335_m.jpg" alt="raptv" class="img-fluid logo-large" />
                   <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                  <p class="h3"> Post your story on @RapTV for 24 hours. </p>
             </div>
-            <div class="col-8">
-                <h1>Learn More About RapTV1</h1>
-                <p>This page is all about RapTV and what it offers. Here, you can detail the services, history, or any relevant information your visitors might be interested in.</p>
-                <!-- Add more content as needed -->
+            <!-- Column for the chart -->
+            <div class="col-md-5 offset-md-2" class="image-description">
+                <canvas id="myChart" width="400" height="400"></canvas>
+                <div id="followerCount" class="h3">Followers: 0</div>
             </div>
         </div>
     </div>
 
-<button id="checkoutButton" class="btn btn-primary">Book Promo Now</button>
-<script src="path/to/your/script.js"></script>
-
+    <div class="container my-4 checkout-container">
+        <form id="promoBookingForm">
+            <!-- Removed the row and col-md-6 classes to not enforce horizontal alignment -->
+            <div class="form-group" > <!-- This div acts as a wrapper for the input, ensuring proper spacing -->
+                <input type="text" id="promoDateRange" class="form-control promo-date-picker" name="promoDateRange" placeholder="Select promo dates" required>
+            </div>
+            <div class="form-group mt-3"> <!-- This div ensures the button is spaced appropriately from the input above -->
+                <button type="button" id="checkoutButton" class="btn btn-primary" onclick="window.location.href='checkout.html';">Book Promo Now</button>
+            </div>
+        </form>
+    </div>
     
+
+<script>
+    flatpickr("#promoDateRange", {
+        mode: "range",
+        minDate: "today",
+        dateFormat: "Y-m-d",
+    });
+</script>
+
+<script src="C:\Coding\Node.js\Website1\public\web1\checkout.js"></script>
+
+
+<script src="/chart-setup.js"></script>
+
 </body>
 </html>
