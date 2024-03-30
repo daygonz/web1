@@ -41,15 +41,16 @@
         <h2>Checkout</h2>
         <!-- Display price information -->
         <p>Price: $XX.XX</p>
+        <p>1 24 hour story promotion on @RapTV + tag.</p>
 
         <!-- Checkout form -->
         <form id="checkoutForm" action="/submit-checkout" method="POST" enctype="multipart/form-data">
             <div class="mb-3">
-                <label for="instagramHandle" class="form-label">Instagram Handle</label>
+                <label for="instagramHandle" class="form-label">Instagram handle</label>
                 <input type="text" class="form-control" id="instagramHandle" name="instagramHandle" required>
             </div>
             <div class="mb-3">
-                <label for="mediaUpload" class="form-label">Upload Picture/Video</label>
+                <label for="mediaUpload" class="form-label">Upload picture/video that will be promoted</label>
                 <input type="file" class="form-control" id="mediaUpload" name="mediaUpload" required>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
