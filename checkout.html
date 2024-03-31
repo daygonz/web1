@@ -64,18 +64,19 @@
     </div>
 </div>
 
-
-<!-- Payment form -->
-<form id="payment-form">
-    <div id="card-element" class="my-3">
-      <!-- Elements will create input fields here -->
-    </div>
-  
-    <div id="card-errors" role="alert"></div> <!-- Display card errors -->
-  
-    <button id="submit-button" class="btn btn-primary mt-4">Submit Payment</button>
-</form>
-
+<!--Payment form-->
+  <section>
+      <div class="product">
+        <img src="https://i.imgur.com/EHyR2nP.png" alt="The cover of Stubborn Attachments" />
+        <div class="description">
+          <h3>Stubborn Attachments</h3>
+          <h5>$20.00</h5>
+        </div>
+      </div>
+      <form action="/create-checkout-session" method="POST">
+        <button type="submit" id="checkout-button">Checkout</button>
+      </form>
+    </section>
 
 <script src="/path/to/your/stripe-integration-script.js"></script>
 
