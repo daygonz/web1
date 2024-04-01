@@ -70,6 +70,12 @@ h1, h2 {
     color: #DADADA;
 }
 
+.h2 {
+    font-size: 3rem; /* Adjusts the size of the header text */
+    font-weight: bold; /* Makes the font bold */
+    color: #DADADA;
+}
+
 
 
 .image-description .promo-price {
