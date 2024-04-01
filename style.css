@@ -32,14 +32,6 @@ h1, h2 {
     background-size: cover; /* Covers the entire background */
 }
 
-@media (min-width: 992px) { /* Adjusts for desktop screens */
-    .header-container {
-        flex-direction: row; /* Lays out items in a row for larger screens */
-        justify-content: space-around; /* Distributes space around items */
-        align-items: center; /* Keeps items vertically centered */
-        text-align: left; /* Aligns text to the left */
-    }
-
 
 .text-container {
     display: flex;
