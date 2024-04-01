@@ -67,6 +67,7 @@ h1, h2 {
 .h4 {
     font-size: 1rem; /* Adjusts the size of the header text */
     color: #DADADA;
+    font-weight: normal;
 }
 
 .h3 {
