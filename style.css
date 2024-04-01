@@ -22,24 +22,24 @@ h1, h2 {
 
 .header-container {
     width: 100%;
-    min-height: 100vh; /* Use min-height to ensure content fits */
+    min-height: 100vh; /* Ensures it covers the viewport height but can expand */
     display: flex;
-    flex-direction: column; /* Better for mobile responsiveness */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    padding: 4rem 1rem; /* Responsive padding */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    padding: 4rem 1rem; /* Provides padding around the content */
     background: url('your-background-image.jpg') no-repeat center center;
-    background-size: cover; /* Ensures background covers the entire container */
+    background-size: cover; /* Covers the entire background */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) { /* Adjusts for desktop screens */
     .header-container {
-        flex-direction: row; /* Horizontal layout for larger screens */
-        justify-content: flex-start; /* Aligns content to the left for larger screens */
-        padding-left: 7rem; /* Larger padding for larger screens */
-        padding-top: 10rem; /* Adjust top padding for larger screens */
+        flex-direction: row; /* Lays out items in a row for larger screens */
+        justify-content: space-around; /* Distributes space around items */
+        align-items: center; /* Keeps items vertically centered */
+        text-align: left; /* Aligns text to the left */
     }
-}
+
 
 .text-container {
     display: flex;
