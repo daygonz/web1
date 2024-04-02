@@ -58,7 +58,7 @@ h1, h2 {
 }
 
 .header-title {
-    font-size: 4vw; /* Adjusts the size of the header text */
+    font-size: 25vw; /* Adjusts the size of the header text */
     font-weight: bold; /* Makes the font bold */
 }
 
