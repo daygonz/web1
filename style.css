@@ -173,3 +173,11 @@ h1, h2 {
     float: right;
     margin-right: 150px;
 }
+
+.carousel-caption-below {
+    position: relative; /* Adjust as needed */
+    background-color: #FFF; /* Or any color that fits your design */
+    padding: 15px;
+    margin-top: -5px; /* Adjust based on your carousel's specific layout and spacing needs */
+}
+
